@@ -1,4 +1,5 @@
-import { crearIncidente, listarIncidentes, rl, modificar } from "./servicios/incidenteService.js";
+import { crearIncidente, listarIncidentes, modificar } from "./servicios/incidenteService.js";
+import { rl } from "./hooks/entradaPorTerminal.js";
 
 async function main() {
     let salir = false;
