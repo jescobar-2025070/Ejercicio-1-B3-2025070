@@ -1,0 +1,1 @@
+export type Estado = "Abierto" | "En Proceso" | "Cerrado";
