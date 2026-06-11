@@ -1,13 +1,8 @@
 import type { incidenteDTO } from "../dto/incidenteDTO.js";
 import type { Incidente } from "../interfaces/incidente.js";
-import * as readline from 'readline/promises';
 import type { Prioridad } from "../types/prioridad.js";
 import type { Estado } from "../types/estado.js";
-
-export const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+import { rl } from "../hooks/entradaPorTerminal.js";
 
 //Globales
 let i = 1;
